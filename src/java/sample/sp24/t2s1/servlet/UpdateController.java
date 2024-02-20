@@ -41,7 +41,6 @@ public class UpdateController extends HttpServlet {
                 UserDTO loginUser=(UserDTO) session.getAttribute("LOGIN_USER");
                 if(userID.equals(loginUser.getUserID())){
                     loginUser.setFullName(fullName);
-                    loginUser.setPassword(userID);
                     loginUser.setRoleID(roleID);
                 }
             }
