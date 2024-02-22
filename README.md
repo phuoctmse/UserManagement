@@ -18,7 +18,7 @@ Clone the code
 Import attached database to MySQL
 Configure database connection in config file
 Build and deploy to servlet container like Tomcat
-Access the application at http://localhost:8080/user-management
+Access the application at http://localhost:8080/UserManagementT2S1JSP/
 Future improvements
 Some potential improvements:
 
